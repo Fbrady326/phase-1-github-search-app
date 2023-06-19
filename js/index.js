@@ -40,7 +40,7 @@ function handleSearch() {
            document.querySelector('#user-list').appendChild(userCard)   
            
            const repoButton = document.querySelector('.repo-button')
-           console.log(repoButton)
+           console.log(repoButto)
            repoButton.addEventListener('click', () => {
                fetch(user.repos_url, {
                method: 'GET',
